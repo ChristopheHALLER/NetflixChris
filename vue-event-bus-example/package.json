@@ -1,26 +1,15 @@
 {
-  "name": "vueflix",
+  "name": "vue-event-bus-example",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint",
-    "sass": "node-sass -w sass -o public/css"
-
+    "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "axios": "^0.22.0",
-    "bootstrap": "^5.1.1",
-    "bootstrap-vue": "^2.21.2",
     "core-js": "^3.6.5",
-    "sass": "^1.42.1",
-    "sass-loader": "^10",
-    "v-autocomplete": "^1.8.2",
-    "vue": "^2.6.14",
-    "vue-glide-js": "^1.3.14",
-    "vue-router": "^3.5.2",
-    "vuetify": "^2.5.9"
+    "vue": "^2.6.11"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
@@ -29,7 +18,6 @@
     "babel-eslint": "^10.1.0",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
-    "node-sass": "^6.0.1",
     "vue-template-compiler": "^2.6.11"
   },
   "eslintConfig": {
@@ -50,9 +38,5 @@
     "> 1%",
     "last 2 versions",
     "not dead"
-  ],
-  "description": "## Project setup ``` npm install ```",
-  "main": "babel.config.js",
-  "author": "",
-  "license": "ISC"
+  ]
 }

@@ -1,0 +1,77 @@
+HOOKS:
+Les hooks de cycle de vie vous permettent de savoir quand mon composant:
+créé,ajouté au DOM, mis à jour ou détruit.
+
+
+BeforeCreate: Il s'execute  au moment de l'initialisation de notre composent
+Created : Permet d'acceder au data et event qui sont actif
+BeforeMount: S'execute quand les fonctions ou rendu sont compilé
+Mounted: Permet d'avoir access au composant et au modele et au DOM
+Before Update: S'execute une fois que les donée du composant change
+Updated: S'execute quand le composant est modifié et que le DOM declenche un re render
+BeforeDestroy:Nettoyter des evenements 
+Destroyed : Proceder a un nettoyage de dernier minute ou signaler au serveur que le composant est dead
+
+
+
+
+EVENT:
+Transmettre des données entre les composants a l'aide de EventBUs
+
+Le bus d'événements sert de moyen sûr d'établir une communication indépendante 
+entre les composants sans passer par un composant central ou parent.
+
+Le bus d'événements est également plus propre et implique moins de code que d'autres approches.
+
+
+
+COMPUTED VS METHOD:
+
+
+Ils sont très similaires et peuvent être utilisés pour faire les mêmes choses plusieurs fois
+
+
+
+Methode sont des fonctions qui sont utilisé pour reagir au evenements dans le DOM
+Utile pour connecter des des fonctionnalités a des evenements
+Utiliser pour executer une fonctionnalité du DOM
+Acceptent les arguements
+Besoin d'activer manuellement un bouton ou quelues chose similaire
+
+Proprieté calculé:
+
+Acceptent pas les arguments,
+Pas besoin d'utiliser un bouton pour qu'il marche
+Mise en cache ( Les fonctions s'executeront une seule fois jusqu'a que les valeurs ne change pas)
+
+les méthodes ne savent pas si les valeurs utilisées dans la fonction ont changé, elles doivent donc 
+s'exécuter à chaque fois pour vérifier.
+
+les propriétés calculées savent si les valeurs utilisées dans la fonction ont changé afin qu'elles 
+n'aient pas besoin de s'exécuter à chaque fois pour vérifier, une seule fois !
+
+
+
+
+UTILISER WATCH
+
+Watch
+- réagi à une data ou une prop qui change pour effectuer une action
+- c’est comme écouter un événement “si la X data change”
+- prends en paramètre la nouvelle data et l’ancienne
+- ne fait pas de return (il ne fait que réagir à un changement de données)
+- n’est pas utilisable dans le template
+Computed
+- comme une method (return une valeur) mais ne prend pas de paramètre
+- fais du cache grâce à une data ou prop détectée avec this.taData
+- utilisable dans le template et ne sera pas toujours ré-exécuté
+Methods
+- une fonction utilisable dans le template, qui sera toujours ré-exécutée
+- doit faire un return pour afficher une donnée dans le template
+
+
+
+
+
+
+

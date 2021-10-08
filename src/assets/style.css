@@ -1,0 +1,90 @@
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #f70303;
+  margin-top: 60px;
+}
+
+h1 {
+  font-size: 120px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  text-decoration: underline;
+  color: #08eea1;
+  /*Other Stylez*/
+}
+
+h1 .btn {
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  font-family: "Poiret One", cursive;
+  font-size: 2em;
+}
+
+h1 .btn-green {
+  background: #2ecc71;
+}
+
+h1 .btn-green:hover {
+  background: #26ab5f;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+h1 .btn-green:active {
+  background: #176437;
+}
+
+h1 .btn-blue {
+  background: #3498db;
+}
+
+h1 .btn-blue:hover {
+  background: #2383c4;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+h1 .btn-blue:active {
+  background: #16527a;
+}
+
+h1 .btn-yellow {
+  background: #f1c40f;
+}
+
+h1 .btn-yellow:hover {
+  background: #cba50c;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+h1 .btn-yellow:active {
+  background: #796307;
+}
+
+h1 .btn-red {
+  background: #e74c3c;
+}
+
+h1 .btn-red:hover {
+  background: #df2e1b;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+h1 .btn-red:active {
+  background: #921e12;
+}
+
+h1 .wrap {
+  margin: 0 auto;
+  width: 800px;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */
